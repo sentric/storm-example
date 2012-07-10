@@ -22,6 +22,11 @@
   			<id>clojars.org</id>
   			<url>http://clojars.org/repo</url>
 		</repository>
+		
+		<repository>
+			<id>twitter4j</id>
+			<url>http://twitter4j.org/maven2</url>
+		</repository>		
 	</repositories>
 
 	<dependencies>
