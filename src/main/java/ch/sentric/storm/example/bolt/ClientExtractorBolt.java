@@ -17,6 +17,7 @@ import backtype.storm.tuple.Tuple;
 import backtype.storm.tuple.Values;
 
 public class ClientExtractorBolt extends BaseRichBolt {
+	private static final long serialVersionUID = 4150732456907856015L;
 	private OutputCollector collector;
 	Pattern clientPattern = Pattern.compile("<a[^>]+>([^<]+)</a>");
 

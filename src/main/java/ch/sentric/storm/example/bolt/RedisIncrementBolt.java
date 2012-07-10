@@ -16,6 +16,7 @@ import backtype.storm.tuple.Tuple;
  * Increment key in sorted set
  */
 public class RedisIncrementBolt extends BaseRichBolt {
+	private static final long serialVersionUID = -2819069215379325159L;
 	private final String key;
 	private final String redisHost;
 	private final int redisPort;

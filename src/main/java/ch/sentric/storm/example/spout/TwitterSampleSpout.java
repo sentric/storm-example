@@ -18,7 +18,8 @@ import twitter4j.StatusDeletionNotice;
 import twitter4j.StatusListener;
 
 public class TwitterSampleSpout extends BaseRichSpout {
-    SpoutOutputCollector _collector;
+	private static final long serialVersionUID = -2871793574597747583L;
+	SpoutOutputCollector _collector;
     LinkedBlockingQueue<Status> queue = null;
     TwitterStream _twitterStream;
     String _username;
