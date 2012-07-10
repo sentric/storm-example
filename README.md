@@ -15,4 +15,10 @@ Redis installation:
 
 To start redis manually:
     redis-server /usr/local/etc/redis.conf
+    
+Connect to database:    
+	redis-cli -n 2
+	
+List top 10 clients:
+	ZREVRANGE clients 0 10 WITHSCORES
 
