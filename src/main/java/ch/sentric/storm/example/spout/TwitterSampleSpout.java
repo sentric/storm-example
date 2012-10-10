@@ -1,3 +1,6 @@
+/*
+ * Copyright 2012 Sentric. All rights reserved.
+ */
 package ch.sentric.storm.example.spout;
 
 import backtype.storm.Config;

@@ -1,5 +1,5 @@
 /*
- * Copyright 2011 MeMo News AG. All rights reserved.
+ * Copyright 2012 Sentric. All rights reserved.
  */
 package ch.sentric.storm.example.topology;
 
