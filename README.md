@@ -22,3 +22,5 @@ Connect to database:
 List top 10 clients:
 	ZREVRANGE clients 0 10 WITHSCORES
 
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/e092edd666e5fe1d67f270d418ef3791 "githalytics.com")](http://githalytics.com/sentric/storm-example)
